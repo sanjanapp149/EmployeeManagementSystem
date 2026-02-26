@@ -93,6 +93,29 @@ employee-management-system/
 4. Profile & Password
 - Click My Profile → see username & email
 - Click Change Password → update password
+### API Endpoints (Summary)
+1. Auth
+
+- POST /api/auth/register/
+- POST /api/auth/login/
+- GET /api/auth/profile/ (protected)
+- POST /api/auth/change-password/ (protected)
+
+### Forms
+
+- POST /api/forms/
+- GET /api/forms/
+- GET /api/forms/:id/
+- PUT /api/forms/:id/ (edit + reorder)
+
+### Employees
+
+- POST /api/employees/
+- GET /api/employees/
+- GET /api/employees/:id/
+- PUT /api/employees/:id/
+- DELETE /api/employees/:id/
+  
 ### Notes
 
 - Frontend uses localStorage for JWT tokens
