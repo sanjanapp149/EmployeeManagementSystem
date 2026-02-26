@@ -93,20 +93,20 @@ employee-management-system/
 4. Profile & Password
 - Click My Profile → see username & email
 - Click Change Password → update password
-### API Endpoints (Summary)
+### API Endpoints 
 ### Auth
 
 - POST /api/auth/register/
 - POST /api/auth/login/
-- GET /api/auth/profile/ (protected)
-- POST /api/auth/change-password/ (protected)
+- GET /api/auth/profile/ 
+- POST /api/auth/change-password/ 
 
 ### Forms
 
 - POST /api/forms/
 - GET /api/forms/
 - GET /api/forms/:id/
-- PUT /api/forms/:id/ (edit + reorder)
+- PUT /api/forms/:id/ (edit)
 
 ### Employees
 
